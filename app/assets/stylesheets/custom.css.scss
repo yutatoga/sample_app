@@ -1,4 +1,5 @@
 @import "bootstrap";
+$grayMediumLight: #eaeaea;
 // universal
 html{
 	overflow-y: scroll;
@@ -67,7 +68,7 @@ footer{
   margin-top: 45px;
   padding-top: 5px;
   border-top: 5px solid $grayMediumLight;
-  color: @grayLight;
+  color: $grayLight;
   a{
     color: $gray;
     &:hover{
